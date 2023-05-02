@@ -241,6 +241,16 @@ Example:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## 🔭 Future Features <a name="future-features"></a>
+
+<!-- > Mention future features. -->
+
+- **Navigation to new book added**
+- **Empty list prompt**
+- **Better styling**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
