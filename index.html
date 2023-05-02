@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./index.css" />
+  <title>Awesome Books</title>
+</head>
+<body>
+  <header>
+    <div class="nav">
+      <nav class="navmenu">
+        <h2>Awesome Books</h2>
+        <ul>
+          <a href="#list">
+            <li>List</li>
+          </a>
+          |
+          <a href="#new-book">
+            <li>Add new</li>
+          </a>
+          |
+          <a href="#contact">
+            <li>Contact</li>
+          </a>
+        </ul>
+      </nav>
+      <span id="date-time"></span>
+    </div>
+  </header>
+  <section id="list">
+    <div class="container">
+      <h1>All Awesome Books</h1>
+      <table class="books"></table>
+      <hr />
+    </div>
+  </section>
+  <section id="new-book">
+    <div class="container">
+      <h2>Add a new book</h2>
+      <form action="#" class="add-book">
+        <input type="text" name="title" id="title" placeholder="Title" />
+        <input type="text" name="author" id="author" placeholder="Author" />
+        <small></small>
+        <input type="submit" name="add" id="add" value="Add" />
+      </form>
+    </div>
+  </section>
+  <section id="contact">
+    <div class="container">
+      <h2>Contact information</h2>
+      <p>
+        Do have any questions or you just want to say "Hello"? <br />
+        You can reach out to us!
+      </p>
+      <ul>
+        <li>Our email: mail@mail.com</li>
+        <li>Our phone number: 00437582108</li>
+        <li>Our address: Streetname 22, 84503 City, Country</li>
+      </ul>
+    </div>
+  </section>
+  <footer>
+    <div class="conatiner">
+      <div class="footer">
+        <p>Copyright</p>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="./index.js"></script>
+</body>
+</html>
