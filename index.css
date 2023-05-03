@@ -1,0 +1,120 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  width: 98%;
+}
+
+.navmenu ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 10px;
+  font-weight: bold;
+}
+
+.navmenu li {
+  list-style: none;
+  white-space: nowrap;
+}
+
+.navmenu li:hover {
+  color: white;
+  background: black;
+  box-shadow: 5px 5px black;
+}
+
+.navmenu a {
+  text-decoration: none;
+  color: black;
+}
+
+#date-time {
+  align-self: flex-end;
+}
+
+.navmenu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  flex-basis: 100%;
+  border: black solid 2px;
+  background: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.books {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border-collapse: collapse;
+  border: darkslategray solid 2px;
+}
+
+.books tr {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.books td {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.books tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.add-book {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  gap: 6px;
+}
+
+.add-book #title,
+#author {
+  height: 30px;
+  border: black soild 2px;
+  border-radius: 0;
+}
+
+.add-book #add {
+  height: 30px;
+  width: 80px;
+  border: black soild 2px;
+  border-radius: 0;
+  cursor: pointer;
+  align-self: flex-end;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  width: 97%;
+  height: 60px;
+  padding: 0 10px;
+  margin-bottom: 2px;
+  background: white;
+  border: black solid 2px;
+}
